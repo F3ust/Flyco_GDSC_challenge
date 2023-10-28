@@ -180,7 +180,7 @@ header p{
 main {
     background-color: var(--Dark-Blue-main);
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 
 .feature-col {
@@ -301,7 +301,7 @@ main {
     background-color: var(--Dark-Blue-ts);
     max-width: 900px;
     padding: 60px 60px;
-    margin-top: -200px;
+    margin-top: -150px;
     border-radius: 10px;
 }
 
