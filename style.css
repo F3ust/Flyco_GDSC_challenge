@@ -433,6 +433,10 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
+    .grid-container {
+        max-width: 400px;
+    }
+
     .feature-col {
         display: flex;
         flex-direction: column;
