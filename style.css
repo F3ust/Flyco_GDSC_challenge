@@ -185,7 +185,7 @@ main {
 
 .feature-col {
     display: grid;
-    grid-auto-rows: (3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     text-align: center;
     max-width: 400px;
@@ -429,6 +429,175 @@ footer {
 
 .footer-social a:hover {
     color: var(--Cyan);
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .feature-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-item img{
+        width: 92.5px;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .feature-item h4 {
+        font-size: 0.9rem;
+    }
+
+    .feature-item p{
+        font-size: 0.6rem;
+    }
+
+    .desc-contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desc-img img{
+        width: 375px;
+        height: 300px;
+    }    
+
+    .desc-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        max-width: 300px;
+    }
+    .nav-img {
+        grid-column: span 6;
+    }
+
+    .nav-menu {
+        grid-column: span 6;
+        font-size: 0.7rem;
+    }
+
+    .nav-img img{
+        width: 88px;
+        height: 26px;
+    }
+
+    header {
+        padding-bottom: 50px;
+    }
+
+    .head-container {
+        max-width: 305px;
+    }
+    
+    .head-container img {
+        width: 320px;
+        height: 240px;
+    }
+
+    .head-container h2{
+        font-size: 1.4rem;
+    }
+
+    .head-container p{
+        font-size: 0.9rem;
+    }
+
+    .all-Button {
+        padding: 15px 100px;
+    }
+
+    main {
+        padding-top: 80px;
+        padding-bottom: 150px;
+    }
+
+    .desc-content {
+        margin-top: -50px;
+    }
+
+    .desc-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .quote-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 305px;
+    }
+
+    .quote-item p{
+        font-size: 0.7rem;
+    }
+
+    .form-container {
+        max-width: 305px;
+        display: flex;
+        padding: 40px 40px;
+        margin-top: -100px;
+    }
+
+    .feature-item {
+        display: flex;
+        flex-direction: column;
+        max-width: 205px;
+    }
+
+    .form-item p{
+        font-size: 0.7rem;
+    }
+
+    .form-item h3 {
+        font-size: 1rem;
+    }
+
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        max-width: 205px;
+    }
+
+    .form-input .all-Button {
+        padding: 12px 30px;
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+
+    .footer-info-container div{
+        grid-column: span 12;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-address {
+        margin-bottom: 20px;
+    }
+
+    .footer-contact {
+        margin-bottom: 70px;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+    .footer-link-1 {
+        margin-bottom: 30px;
+    }
+
+    .footer-link-2 {
+        margin-bottom: 70px;
+    }
+
+    footer {
+        padding-bottom: 0px;
+    }
+
 }
 
 
