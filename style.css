@@ -229,7 +229,7 @@ main {
 }
 
 .desc-content h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 90%;
     font-weight: 700;
     color: #fff;
@@ -433,13 +433,20 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .grid-container {
         max-width: 400px;
+        width: 100%;
     }
 
     .feature-col {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .feature-contain {
         display: flex;
