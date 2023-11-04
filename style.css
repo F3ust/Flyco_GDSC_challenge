@@ -346,7 +346,7 @@ form .all-Button{
     color: var(--Light-Red);
     padding-left: 20px;
     text-align: left;
-    display: none;
+    visibility: hidden;
 }
 
 footer {
