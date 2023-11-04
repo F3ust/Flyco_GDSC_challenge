@@ -322,6 +322,10 @@ main {
     margin-bottom: 30px;
 }
 
+.form-item span {
+    font-size: 0.9rem;
+}
+
 .form-input {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -331,7 +335,7 @@ main {
     align-items: center;
 }
 .email-input {
-    padding: 15px 15px;
+    padding: 12px 20px;
     border-radius: 50px;
     width: 100%;
     border: 0;
@@ -528,7 +532,7 @@ footer {
 
     main {
         padding-top: 80px;
-        padding-bottom: 150px;
+        padding-bottom: 250px;
     }
 
     .desc-content {
@@ -553,7 +557,7 @@ footer {
         max-width: 305px;
         display: flex;
         padding: 40px 40px;
-        margin-top: -100px;
+        margin-top: -160px;
     }
 
     .feature-item {
@@ -563,6 +567,10 @@ footer {
     }
 
     .form-item p{
+        font-size: 0.7rem;
+    }
+
+    .form-item span {
         font-size: 0.7rem;
     }
 
